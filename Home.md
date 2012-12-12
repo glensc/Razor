@@ -109,7 +109,7 @@ And see here for a general overview of Razor's [[workflow]]
 * The main PuppetLabs Razor page:  http://puppetlabs.com/solutions/next-generation-provisioning
 * The Razor module (from the Forge):  http://forge.puppetlabs.com/puppetlabs/razor
 * The Razor mailing list (Google Groups):  https://groups.google.com/group/puppet-razor
-* Razor at FreeNode (IRC):  http://webchat.freenode.net/?channels=puppet-razor
+* Razor at FreeNode (IRC):  [#puppet-razor](http://webchat.freenode.net/?channels=puppet-razor)
 
 ### Razor-Related Postings
 * Nick Weaver's original post:  http://nickapedia.com/2012/05/21/lex-parsimoniae-cloud-provisioning-with-a-razor
