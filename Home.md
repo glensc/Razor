@@ -110,12 +110,12 @@ And see here for a general overview of Razor's [[workflow]]
 * The Razor Module (from the Puppet Forge):  http://forge.puppetlabs.com/puppetlabs/razor
 * The Razor Mailing List (Google Groups):  https://groups.google.com/group/puppet-razor
 * Razor at FreeNode (IRC):  http://webchat.freenode.net/?channels=puppet-razor
-* A PuppetLabs Razor Podcast (Mike Stanke, Dawn Foster, and Daniel Pittman):  http://puppetlabs.com/blog/razor-podcast
-* Razor at PuppetConf (Nick Weaver's Presentation/Demo):  http://www.youtube.com/watch?v=cR1bOg0IU5U
 
-### Razor Blog Postings
+### Razor-Related Postings
 * Nick Weaver's Original Post:  http://nickapedia.com/2012/05/21/lex-parsimoniae-cloud-provisioning-with-a-razor
 * Nan Liu's Original Post:  http://puppetlabs.com/blog/introducing-razor-a-next-generation-provisioning-solution
+* A PuppetLabs Razor Podcast (Mike Stanke, Dawn Foster, and Daniel Pittman):  http://puppetlabs.com/blog/razor-podcast
+* Razor at PuppetConf (Nick Weaver's Presentation/Demo):  http://www.youtube.com/watch?v=cR1bOg0IU5U
 * "How to get started with Razor and Puppet" (commands are somewhat out of date, but still a good description of the workflow):  http://purevirtual.eu/2012/07/02/how-to-get-started-with-razor-and-puppet-part-1/
 
 ### The Razor Microkernel Project
