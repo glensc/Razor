@@ -124,3 +124,19 @@ And see here for a general overview of Razor's [[workflow]]
 ### The Razor Microkernel Project
 * The Project homepage:  https://github.com/puppetlabs/Razor-Microkernel
 * The Razor-Microkernel project's open-source announcement:  http://nickapedia.com/2012/06/25/razor-oss-2-public-release-of-mk
+
+## Frequently Asked Questions
+
+Until we have a fuller set, the FAQ can sit inline here:
+
+### Razor and Firewall Rules
+
+Razor needs access to four key services:
+ * it may act as your DHCP server
+ * it may act as your TFTP server
+   - this will require `ip_conntrack_tftp` to function by default
+ * it accepts HTTP connections on port 8026
+ * it accepts HTTP connections on port 8027
+
+You need to open all those ports for it to work.
+
