@@ -2,9 +2,11 @@ Razor is an advanced provisioning application which can deploy both bare-metal a
 
 Newly added machines in a Razor deployment will PXE-boot from a special Razor Microkernel image, then check in, provide Razor with inventory information, and wait for further instructions. Razor will consult user-created policy rules to choose which preconfigured model to apply to a new node, which will begin to follow the model's directions, giving feedback to Razor as it completes various steps. Models can include steps for handoff to a DevOps system or to any other system capable of controlling the node (such as a vCenter server taking possession of ESX systems).
 
-## Overview of the Razor CLI
+## Installation Instructions
 
 For installation instructions see this page: [[Installation]]
+
+## Overview of the Razor CLI
 
 The Razor CLI allows the user to interact with a local Razor server instance via a login/shell prompt. The typical Razor CLI command can most easily be seen by running the 'razor' command from the login/shell prompt on the Razor server (with no additional arguments):
 ```bash
