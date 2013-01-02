@@ -48,7 +48,9 @@ DHCP configuration should configure the boot filename to 'pxelinux.0' and set ne
 
 ## TFTP Service
 
-The puppetlabs-razor module will install the TFTP service and all support files listed below. Puppet users can skip ahead to the Razor installation instructions.
+The puppetlabs-razor module will install the TFTP service and all support files listed below. Puppet users can skip ahead to the Razor installation instructions, except for the caution:
+
+TFTP, like FTP, uses randomly assigned ports for individual sessions.  If you use iptables on the Razor server you need to ensure that you have `ip_conntrack_tftp` loaded (and allow RELATED packets), follow the notes in #304 to set a fixed port range for the TFTP service, or otherwise allow the traffic past the firewall.
 
 The TFTP service requires the following files in the tftp directory:
 
@@ -131,6 +133,8 @@ After puppet deploys razor on the target system, the razor service should be onl
      Status =>  Valid
      Version =>  0.9.0.4
      Built Time =>  Tue Jul 03 17:49:49 -0500 2012
+
+**WARNING**: The Puppet module does not attempt to manage an iptables or other firewall, and neither do the DHCP and TFTP modules that we interact with.  You will need to ensure they are configured appropriately to allow traffic through.
 
 Note: installation issues with the puppet module should be filed in the [puppetlabs-razor project](https://github.com/puppetlabs/puppetlabs-razor/issues).
 
