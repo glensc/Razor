@@ -18,6 +18,7 @@ It should be noted here that the IPMI_QUERY value (passed via the '--query' comm
 * **lan_print** -- displays LAN information for the BMC
 * **chassis_status** -- displays the node's current chassis status
 * **power_status** -- displays the node's current power status
+* **identify** -- turns on front panel identification light
 
 and the STATE value (passed via the '--power-state' command-line flag) must be one of the following values:
 
@@ -40,7 +41,7 @@ The bmc RESTful API is provided via three resources ('/bmc', '/bmc/{UUID}', and 
 
 * **GET /bmc** -- used to get a summary view of all of the BMC instances that are registered with the system (including the current power state and the motherboard serial number of the node they are attached to)
 * **GET /bmc/{UUID}** -- used to get the details of a specific BMC instance (by UUID); the details returned are the same as those returned in the previous operation, but the values returned are only those for that specific BMC instance.
-* **GET /bmc/{UUID}?filter_str** -- used to get additional information from a specific BMC instance (by UUID); the filter_str values supported by this resource all take the form of 'query=(query_str)' where the (query_str) value is one of the following:  'chassis_status', 'enables', 'fru_print', 'guid', 'info', 'lan_print', or 'power_status'
+* **GET /bmc/{UUID}?filter_str** -- used to get additional information from a specific BMC instance (by UUID); the filter_str values supported by this resource all take the form of 'query=(query_str)' where the (query_str) value is one of the following:  'chassis_status', 'enables', 'fru_print', 'guid', 'info', 'lan_print', 'power_status', or 'identify'
 * **POST /bmc/register?json_hash=(JSON_STR)** -- used to register a new BMC instance with the Razor server; the 'ip_address' and 'mac_address' values for the registration request are included in the (JSON_STR) value, a URL-encoded JSON hash that must be included as part of the registration request.  An example of such a json_hash value would be something like the following string:
 ```html
 %7B%22mac_address%22:%2200:0c:29:ec:67:fc%22,%22ip_address%22:%22127.0.0.4%22%7D
