@@ -8,6 +8,7 @@ The model CLI provides users with the ability to create new model instances, vie
 ```bash
 razor model [get] [all]                 View all models
 razor model [get] (UUID)                View specific model instance
+razor model [get] template|templates    View list of model templates
 razor model add (options...)            Create a new model instance
 razor model update (UUID) (options...)  Update a specific model instance
 razor model remove (UUID)|all           Remove existing model(s)
