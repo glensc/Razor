@@ -6,6 +6,8 @@ Newly added machines in a Razor deployment will PXE-boot from a special Razor Mi
 
 For installation instructions see this page: [[Installation]]
 
+[Microkernel downloads are available here: https://github.com/puppetlabs/razor-microkernel/downloads](https://github.com/puppetlabs/razor-microkernel/downloads)
+
 ## Overview of the Razor CLI
 
 The Razor CLI allows the user to interact with a local Razor server instance via a login/shell prompt. The typical Razor CLI command can most easily be seen by running the 'razor' command from the login/shell prompt on the Razor server (with no additional arguments):
@@ -139,4 +141,3 @@ Razor needs access to four key services:
  * it accepts HTTP connections on port 8027
 
 You need to open all those ports for it to work.
-
