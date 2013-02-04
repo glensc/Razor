@@ -111,7 +111,7 @@ On the puppet master assign the razor class to the appropriate node, and trigger
       }      
       class { 'razor':
         username  => 'razor',
-        mk_source => 'https://github.com/downloads/puppetlabs/Razor-Microkernel/rz_mk_prod-image.0.9.0.4.iso',
+        mk_source => 'https://github.com/downloads/puppetlabs/Razor-Microkernel/rz_mk_prod-image.0.9.3.0.iso',
       }
     }
 
