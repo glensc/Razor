@@ -6,7 +6,7 @@ This page describes typical workflows in Razor for provisioning a new operating 
 
 When Razor is initially installed there are no images loaded in the system. A microkernel image is required to perform the initial inventory discovery process as a system connects to Razor.
 
-* Download a microkernel (MK) from the project site: https://github.com/puppetlabs/Razor/downloads
+* Download a microkernel (MK) from the project site: https://github.com/puppetlabs/Razor-Microkernel/downloads
 * Load the microkernel via the `razor image` command:
 
         $ razor image add mk ./rz_mk_dev-image.0.8.8.0.iso
@@ -110,4 +110,3 @@ The initial policy creates a single rule which can be enabled/disabled. When mul
     Policies
     #  Enabled     Label         Tags        Model Label    Count           UUID           
     0  true     precise  [memsize_4GiB,vmware_vm]  install_precise  0      41o1z77j2R4ZsgjD9KTpPe
-
