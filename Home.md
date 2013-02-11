@@ -122,6 +122,7 @@ And see here for a general overview of Razor's [[workflow]]
 * Razor at PuppetConf (Nick Weaver's Presentation/Demo):  http://www.youtube.com/watch?v=cR1bOg0IU5U
 * "How to get started with Razor and Puppet" (commands are somewhat out of date, but still a good description of the workflow):  http://purevirtual.eu/2012/07/02/how-to-get-started-with-razor-and-puppet-part-1
 * Egle Sigler's post on the Chef broker plugin:  http://anystacker.com/2012/12/razor-chef-broker-updated
+* Fletcher Nichol's post on a new Chef cookbook that he's written to manage Razor using Chef (which uses Vagrant to set up a lab environment and then uses Chef/Knife to manage it):  http://www.bluebox.net/about/blog/2013/01/provisioning-with-razor-and-chef-an-interactive-demo/
 
 ### The Razor Microkernel Project
 * The Project homepage:  https://github.com/puppetlabs/Razor-Microkernel
