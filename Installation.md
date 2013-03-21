@@ -16,8 +16,8 @@ Puppet Labs provides a puppetlabs-razor module to install razor and it's depende
 
 There are two ways to install Razor:
 
-1. [Use the Puppet module to automatically install Razor][#puppet]
-2. [Install Razor by hand, manually][#manual-installation]
+1. [Use the Puppet module to automatically install Razor](https://github.com/puppetlabs/Razor/wiki/Installation#puppet)
+2. [Install Razor by hand, manually](https://github.com/puppetlabs/Razor/wiki/Installation#manual-installation)
 
 ## Puppet
 Install Puppet Enterprise or Puppet open source.
