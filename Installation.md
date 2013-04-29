@@ -154,8 +154,6 @@ Razor software dependencies:
 
         apt-get install ruby rubygems
         yum install ruby rubygems
-
-    On RedHat platforms rubygems-update should be installed and update_rubygems should be executed to update gem version.
 * git and make
 * MongoDB installation: http://docs.mongodb.org/manual/tutorial/install-mongodb-on-debian-or-ubuntu-linux/
 * NodeJS installation: https://github.com/joyent/node/wiki/Installation
