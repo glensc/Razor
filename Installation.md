@@ -159,10 +159,10 @@ Razor software dependencies:
 
 Once the dependencies have been satisfied, razor can be installed from source:
 
-    mkdir /opt/razor
+    cd /opt
+    git clone https://github.com/puppetlabs/Razor.git razor
     cd /opt/razor
     gem install autotest base62 bson bson_ext colored daemons json logger macaddr mocha mongo net-ssh require_all syntax uuid
     npm install express@2.5.11
     npm install mime
-    git clone https://github.com/puppetlabs/Razor.git
     /opt/razor/bin/razor_daemon.rb start
